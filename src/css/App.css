@@ -157,7 +157,8 @@ h6{
 
 @media (max-width: 900px) { 
   .App{
-    height: 95vh;
+    min-height: 93vh;
+    min-height: -webkit-fill-available;
     flex-direction: column;
   }
   .player_container{
