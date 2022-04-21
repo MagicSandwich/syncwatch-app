@@ -13,7 +13,7 @@ app.use(
         contentSecurityPolicy: false,
     })
 );
-app.use(express.static(path.join(__dirname, "./build")));
+//app.use(express.static(path.join(__dirname, "./build")));
 
 const server = http.createServer(app)
 server.listen(PORT, ()=>{
