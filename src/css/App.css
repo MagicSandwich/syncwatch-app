@@ -157,6 +157,7 @@ h6{
 
 @media (max-width: 900px) { 
   .App{
+    height: 95vh;
     flex-direction: column;
   }
   .player_container{
@@ -173,6 +174,11 @@ h6{
   }
   .Start>button{
     font-size: 4vmax;
+  }
+  .lds-ring {
+    top: 19.6%;
+    left: 49% !important;
+    transform: translate(-49%, -19.6%);
   }
 
 
