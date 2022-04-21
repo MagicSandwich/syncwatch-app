@@ -5,6 +5,7 @@ const cors = require('cors')
 const {Server} = require('socket.io')
 const helmet = require("helmet");
 const PORT = process.env.PORT || 3001;
+const path = require("path");
 
 app.use(cors({ origin: "*" }));
 app.use(
