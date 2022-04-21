@@ -10,9 +10,9 @@
 
 ### `npm start`
 
-Клиент на 3000
+Клиент на 3000 \n
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### `npm devstart`
+### `startserver`
 
 Бэкенд на порте 3001
