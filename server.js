@@ -11,8 +11,12 @@ app.use(cors({ origin: "*" }));
 app.use(
     helmet({
         contentSecurityPolicy: false,
+        crossOriginOpenerPolicy: false,
+        crossOriginResourcePolicy: false,
+        permittedPolicies: "all"
     })
 );
+app.use(helmet.xssFilter());
 app.use(express.static(path.join(__dirname, "./build")));
 
 const server = http.createServer(app)
